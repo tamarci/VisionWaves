@@ -25,6 +25,7 @@ paginate_path: "/blog/:num/" #ez lehet baj lesz
 
 # MatJek specific configurations
 github_profile: "https://github.com/tamarci"
+linkedin_profile: "https://www.linkedin.com/in/márton-tárnok-4134451a4/"
 user: "Marton Tarnok"
 user_email: "email_kukac_gmail.com"
 contact_url: "https://goo.gl/tVljbV"
