@@ -1,0 +1,26 @@
+<div class="col s12 tag-div">
+    <div class="user-content">
+        <p>
+            This page lists my publications and scientific papers that I have authored or co-authored, in chronological order.
+        </p>
+    </div>
+    <div class="divider"></div>
+    <div class="tag-index">
+      {% for tag in site.tags %}
+      {% capture tag_name %}{{tag[0]}}{% endcapture %}
+      {% if tag_name contains "publication" %}
+      <h4 >List of my publications</h4>
+      <ul class="tag-post">
+        {% for post in tag[1] %}
+        <a class="post-title" href="{{site.baseurl}}{{post.url}}" target="_blank">
+          <li>
+            {{post.title}}
+            <small class="post-date">{{post.date | date_to_string}}</small>
+          </li>
+        </a>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
