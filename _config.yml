@@ -1,4 +1,4 @@
-title: Vision Waves
+title: VisionWaves
 description: > # this means to ignore newlines until "baseurl:"
  Data is power!
 baseurl: "/VisionWaves"
@@ -8,14 +8,14 @@ permalink: /:year/:month/:day/:title
 paginate: 5
 paginate_path: "/blog/:num/" #ez lehet baj lesz
 
-# MatJek specific configurations
+# Template specific configurations
 github_profile: "https://github.com/tamarci"
 linkedin_profile: "https://www.linkedin.com/in/márton-tárnok-4134451a4/"
 user: "Marton Tarnok"
 user_email: "email_kukac_gmail.com"
-contact_url: "https://goo.gl/tVljbV"
-google_tracking_id: "UA-96359860-1"
-google_site_verification: "UA-96359860-1"
+contact_url: ""
+google_tracking_id: ""
+google_site_verification: ""
 disqus_shortname: "Marton"
 
 # Build settings
