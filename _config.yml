@@ -1,8 +1,8 @@
 title: Vision Waves
 description: > # this means to ignore newlines until "baseurl:"
  Data is power!
-baseurl: "VisionWaves"
-url: "VisionWaves"
+baseurl: "/VisionWaves"
+url: "https://tamarci.github.io"
 permalink: /:year/:month/:day/:title
 #repository: 
 paginate: 5
